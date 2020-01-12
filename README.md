@@ -11,3 +11,7 @@ mvn spring-boot:run
 
 ### Assumption
 - The 5$ discount do not apply to purchase that received percentage based discounts.
+
+### Additional Documents
+- SonarQube Report
+- UML Diagram
