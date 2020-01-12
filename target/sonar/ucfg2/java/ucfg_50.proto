@@ -1,0 +1,29 @@
+
+7com.roudy.retail.controller.PurchaseRepository#count()I®
+ù/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/PurchaseRepository.java ("1*Œ
+
+1®
+ù/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/PurchaseRepository.java (4
+Ì
+®
+ù/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/PurchaseRepository.java (5
+sqljava.lang.String"__id*!
+SELECT COUNT(*) FROM PURCHASE¨
+©
+®
+ù/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/PurchaseRepository.java! !(0
+%0*org.springframework.jdbc.core.JdbcTemplate"__id*D*B0
+.com.roudy.retail.controller.PurchaseRepository"
+jdbcTemplate≈¬
+®
+ù/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/PurchaseRepository.java! !(>
+%1java.lang.Integer"porg.springframework.jdbc.core.JdbcTemplate#queryForObject(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;*2
+0
+%0*org.springframework.jdbc.core.JdbcTemplate*
+
+sqljava.lang.String*
+""23queryForObject(Ljava/lang/String;Ljava/lang/Class;)"≥
+®
+ù/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/PurchaseRepository.java! !(?
+""B20
+.com.roudy.retail.controller.PurchaseRepository

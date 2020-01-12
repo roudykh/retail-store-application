@@ -28,7 +28,6 @@ public class UserRowMapper implements RowMapper<User> {
     public String date2string(Date date) {
         String pattern = "ddMMyyyy";
         DateFormat df = new SimpleDateFormat(pattern);
-        String dateAsString = df.format(date);
-        return dateAsString;
+        return df.format(date);
     }
 }

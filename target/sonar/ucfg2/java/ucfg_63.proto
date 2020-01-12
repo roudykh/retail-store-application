@@ -1,0 +1,46 @@
+
+Ecom.roudy.retail.controller.GoodRepository#findAll3()Ljava/util/List;§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaJ J("1*’
+1§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaL L()·
+ﬁ
+§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaL L(*
+sqljava.lang.String"__id*
+SELECT * FROM GOOD§
+°
+§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaN N('0
+%0*org.springframework.jdbc.core.JdbcTemplate"__id*@*>,
+*com.roudy.retail.controller.GoodRepository"
+jdbcTemplateöó
+§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaP P(/9
+%13org.springframework.jdbc.core.BeanPropertyRowMapper"3org.springframework.jdbc.core.BeanPropertyRowMapper≈
+¬
+§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaP P(;
+%2"Norg.springframework.jdbc.core.BeanPropertyRowMapper#<init>(Ljava/lang/Class;)V*;
+9
+%13org.springframework.jdbc.core.BeanPropertyRowMapper*
+""èå
+§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaN P(<
+%3java.util.List"}org.springframework.jdbc.core.JdbcTemplate#query(Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper;)Ljava/util/List;*2
+0
+%0*org.springframework.jdbc.core.JdbcTemplate*
+
+sqljava.lang.String*;
+9
+%13org.springframework.jdbc.core.BeanPropertyRowMapper2Bquery(Ljava/lang/String;Lorg/springframework/jdbc/core/RowMapper;)·
+ﬁ
+§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaN P(=
+goodsjava.util.List"__id*
+
+%3java.util.List"¬
+§
+ô/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javaR R(
+
+goodsjava.util.ListB.,
+*com.roudy.retail.controller.GoodRepository

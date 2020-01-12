@@ -66,7 +66,7 @@ public class StartApplication implements CommandLineRunner {
 
         jdbcTemplate.execute("DROP TABLE user IF EXISTS");
         jdbcTemplate.execute("CREATE TABLE user(" +
-                "id SERIAL, name VARCHAR(100), type VARCHAR(10), created_date date)");
+                "id SERIAL, name VARCHAR(100) unique, type VARCHAR(10), created_date date)");
 
         List<User> list = Arrays.asList(
                 new User("User A", "Employee", "01022018"),

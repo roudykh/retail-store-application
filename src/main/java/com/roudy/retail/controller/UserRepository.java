@@ -1,18 +1,17 @@
 package com.roudy.retail.controller;
 
+import java.sql.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import com.roudy.retail.model.User;
-
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.sql.Date;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 @Repository
 public class UserRepository {
@@ -29,8 +28,7 @@ public class UserRepository {
     public String date2string(Date date) {
         String pattern = "ddMMyyyy";
         DateFormat df = new SimpleDateFormat(pattern);
-        String dateAsString = df.format(date);
-        return dateAsString;
+        return df.format(date);
     }
 
     public User findByUserId(Long id) {
@@ -40,26 +38,12 @@ public class UserRepository {
         return jdbcTemplate.queryForObject(sql, new Object[]{id}, new UserRowMapper());
 
     }
+    
+    public User findByUserName(String name) {
 
-    public User findByUserId2(Long id) {
+        String sql = "SELECT * FROM USER WHERE NAME = ?";
 
-        String sql = "SELECT * FROM USER WHERE ID = ?";
-
-        return (User) jdbcTemplate.queryForObject(sql, new Object[]{id}, new BeanPropertyRowMapper<User>(User.class));
-
-    }
-
-    public User findByUserId3(Long id) {
-
-        String sql = "SELECT * FROM USER WHERE ID = ?";
-
-        return jdbcTemplate.queryForObject(sql, new Object[]{id}, (rs, rowNum) ->
-                new User(
-                        rs.getLong("id"),
-                        rs.getString("name"),
-                        rs.getString("type"),
-                        date2string(rs.getDate("created_date"))
-                ));
+        return jdbcTemplate.queryForObject(sql, new Object[]{name}, new UserRowMapper());
 
     }
 
@@ -82,44 +66,6 @@ public class UserRepository {
         }
 
         return users;
-    }
-
-    public List<User> findAll2() {
-
-        String sql = "SELECT * FROM USER";
-
-        List<User> users = jdbcTemplate.query(
-                sql,
-                new UserRowMapper());
-
-        return users;
-    }
-
-    public List<User> findAll3() {
-
-        String sql = "SELECT * FROM USER";
-
-        List<User> users = jdbcTemplate.query(
-                sql,
-                new BeanPropertyRowMapper<User>(User.class));
-
-        return users;
-    }
-
-    public List<User> findAll4() {
-
-        String sql = "SELECT * FROM USER";
-
-        return jdbcTemplate.query(
-                sql,
-                (rs, rowNum) ->
-                        new User(
-                                rs.getLong("id"),
-                                rs.getString("name"),
-                                rs.getString("type"),
-                                date2string(rs.getDate("created_date"))
-                        )
-        );
     }
 
     public String findUserNameById(Long id) {

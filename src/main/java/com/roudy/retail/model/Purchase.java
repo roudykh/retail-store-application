@@ -14,7 +14,7 @@ public class Purchase {
 
 	private static final Logger log = LoggerFactory.getLogger(Purchase.class);
 
-	private Long ID;
+	private Long id;
 	private HashMap<Good, Integer> basket;
 	private User user;
 	private double price;
@@ -28,11 +28,11 @@ public class Purchase {
 	}
 
 	public Long getID() {
-		return ID;
+		return id;
 	}
 
-	public void setID(Long ID) {
-		this.ID = ID;
+	public void setID(Long id) {
+		this.id = id;
 	}
 
 	public HashMap<Good, Integer> getBasket() {
@@ -100,7 +100,7 @@ public class Purchase {
 					sum *= 0.95;
 				}
 			} catch (Exception e) {
-				e.printStackTrace();
+				log.info("context", e);
 			}
 			break;
 		}
@@ -108,12 +108,11 @@ public class Purchase {
 		DecimalFormat df = new DecimalFormat("####0.00");
 		this.setPrice(Double.valueOf(df.format(sum)));
 		
-		log.info("The price is " + this.getPrice() + " for " + this.getUser().getName());
+		log.info("The price is {} for {}", this.getPrice(), this.getUser().getName());
 	}
 
 	Date string2date(String str) throws Exception {
 		DateFormat format = new SimpleDateFormat("ddMMyyyy");
-		Date date = format.parse(str);
-		return date;
+		return format.parse(str);
 	}
 }

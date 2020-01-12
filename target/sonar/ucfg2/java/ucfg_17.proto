@@ -1,0 +1,108 @@
+
+8com.roudy.retail.model.User#toString()Ljava/lang/String;•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java ("1*š
+1•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java (Ñ
+Î
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java (
+%0java.lang.String"__concat*	
+User{*
+ID=à
+Ý
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java (
+%1java.lang.Long"__id*'*%
+com.roudy.retail.model.User"
+idï
+ì
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java (
+%2java.lang.String"__concat*
+
+%0java.lang.String*
+
+%1java.lang.Longå
+â
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java (
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+
+, name='ä
+á
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java (!
+%4java.lang.String"__id*)*'
+com.roudy.retail.model.User"
+nameñ
+î
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java (!
+%5java.lang.String"__concat*
+
+%3java.lang.String*
+
+%4java.lang.Stringß
+Ü
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java ((
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+""ä
+á
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java (
+%7java.lang.String"__concat*
+
+%6java.lang.String*	
+, type=ä
+á
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java ( 
+%8java.lang.String"__id*)*'
+com.roudy.retail.model.User"
+typeñ
+î
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java ( 
+%9java.lang.String"__concat*
+
+%7java.lang.String*
+
+%8java.lang.Stringì
+é
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java  ( 
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+, createdDate=ì
+é
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java #  (.
+%11java.lang.String"__id*0*.
+com.roudy.retail.model.User"
+createdDateô
+ñ
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java  (.
+%12java.lang.String"__concat*
+
+%10java.lang.String*
+
+%11java.lang.Stringá
+Þ
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java !(
+%13java.lang.String"__concat*
+
+%12java.lang.String*
+"""³
+•
+Š/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/User.java !(
+
+%13java.lang.StringB
+com.roudy.retail.model.User

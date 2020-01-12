@@ -30,26 +30,12 @@ public class GoodRepository {
         return jdbcTemplate.queryForObject(sql, new Object[]{id}, new GoodRowMapper());
 
     }
+    
+    public Good findByGoodName(String name) {
 
-    public Good findByGoodId2(Long id) {
+        String sql = "SELECT * FROM GOOD WHERE NAME = ?";
 
-        String sql = "SELECT * FROM GOOD WHERE ID = ?";
-
-        return (Good) jdbcTemplate.queryForObject(sql, new Object[]{id}, new BeanPropertyRowMapper<Good>(Good.class));
-
-    }
-
-    public Good findByGoodId3(Long id) {
-
-        String sql = "SELECT * FROM GOOD WHERE ID = ?";
-
-        return jdbcTemplate.queryForObject(sql, new Object[]{id}, (rs, rowNum) ->
-                new Good(
-                        rs.getLong("id"),
-                        rs.getString("name"),
-                        rs.getString("type"),
-                        rs.getDouble("price")
-                ));
+        return jdbcTemplate.queryForObject(sql, new Object[]{name}, new GoodRowMapper());
 
     }
 

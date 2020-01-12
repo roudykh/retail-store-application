@@ -1,0 +1,29 @@
+
+3com.roudy.retail.controller.GoodRepository#count()I¤
+™/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javan n("1*²
+
+1¤
+™/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javap p(0è
+å
+¤
+™/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javap p(1
+sqljava.lang.String"__id*
+SELECT COUNT(*) FROM GOOD¤
+¡
+¤
+™/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javar r(0
+%0*org.springframework.jdbc.core.JdbcTemplate"__id*@*>,
+*com.roudy.retail.controller.GoodRepository"
+jdbcTemplateÁ¾
+¤
+™/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javar r(>
+%1java.lang.Integer"porg.springframework.jdbc.core.JdbcTemplate#queryForObject(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;*2
+0
+%0*org.springframework.jdbc.core.JdbcTemplate*
+
+sqljava.lang.String*
+""23queryForObject(Ljava/lang/String;Ljava/lang/Class;)"¯
+¤
+™/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/controller/GoodRepository.javar r(?
+""B.,
+*com.roudy.retail.controller.GoodRepository

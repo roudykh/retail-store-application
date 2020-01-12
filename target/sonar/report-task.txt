@@ -1,0 +1,6 @@
+projectKey=retail-store-application
+serverUrl=http://localhost:9000
+serverVersion=8.1.0.31237
+dashboardUrl=http://localhost:9000/dashboard?id=retail-store-application
+ceTaskId=AW-boLYWkBc8qu6ywMil
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AW-boLYWkBc8qu6ywMil

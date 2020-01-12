@@ -2,7 +2,7 @@ package com.roudy.retail.model;
 
 public class Good {
 
-    private Long ID;
+    private Long id;
     private String name;
     private String type;
     private double price;
@@ -16,8 +16,8 @@ public class Good {
         this.price = price;
     }
 
-    public Good(Long ID, String name, String type, double price) {
-        this.ID = ID;
+    public Good(Long id, String name, String type, double price) {
+        this.id = id;
         this.name = name;
         this.type = type;
         this.price = price;
@@ -26,7 +26,7 @@ public class Good {
     @Override
     public String toString() {
         return "Good{" +
-                "ID=" + ID +
+                "ID=" + id +
                 ", name='" + name + '\'' +
                 ", type=" + type +
                 ", price=" + price +
@@ -34,11 +34,11 @@ public class Good {
     }
 
     public Long getID() {
-        return ID;
+        return id;
     }
 
     public void setID(Long ID) {
-        this.ID = ID;
+        this.id = ID;
     }
 
     public String getName() {

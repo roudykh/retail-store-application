@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Basket {
 
-	private Long ID;
+	private Long id;
 	private HashMap<Good, Integer> goodsQtity;
 
 	public Basket() {
@@ -15,11 +15,11 @@ public class Basket {
 	}
 
 	public Long getID() {
-		return ID;
+		return id;
 	}
 
-	public void setID(Long ID) {
-		this.ID = ID;
+	public void setID(Long id) {
+		this.id = id;
 	}
 
 	public HashMap<Good, Integer> getGoodsQtity() {

@@ -2,7 +2,7 @@ package com.roudy.retail.model;
 
 public class User {
 
-    private Long ID;
+    private Long id;
     private String name;
     private String type;
     private String createdDate;
@@ -16,8 +16,8 @@ public class User {
         this.createdDate = createdDate;
     }
 
-    public User(Long ID, String name, String type, String createdDate) {
-        this.ID = ID;
+    public User(Long id, String name, String type, String createdDate) {
+        this.id = id;
         this.name = name;
         this.type = type;
         this.createdDate = createdDate;
@@ -26,7 +26,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "ID=" + ID +
+                "ID=" + id +
                 ", name='" + name + '\'' +
                 ", type=" + type +
                 ", createdDate=" + createdDate +
@@ -34,11 +34,11 @@ public class User {
     }
 
     public Long getID() {
-        return ID;
+        return id;
     }
 
     public void setID(Long ID) {
-        this.ID = ID;
+        this.id = ID;
     }
 
     public String getName() {

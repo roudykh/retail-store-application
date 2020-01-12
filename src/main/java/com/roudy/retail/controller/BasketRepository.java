@@ -22,9 +22,9 @@ public class BasketRepository {
 
 	public int save(Basket basket, long id) {
 		int nbrOfRowsAffected = 0;
-		basket.getGoodsQtity().forEach((k, v) -> {
-			jdbcTemplate.update("insert into basket (id, goodid, quantity) values(?,?,?)", id, k.getID(), v);
-		});
+		basket.getGoodsQtity().forEach((k, v) -> 
+			jdbcTemplate.update("insert into basket (id, goodid, quantity) values(?,?,?)", id, k.getID(), v)
+		);
 		return nbrOfRowsAffected;
 	}
 

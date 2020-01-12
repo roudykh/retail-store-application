@@ -1,0 +1,17 @@
+
+@com.roudy.retail.model.Basket#getGoodsQtity()Ljava/util/HashMap;—
+Œ/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/Basket.java (,"1*Ç
+1—
+Œ/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/Basket.java	 (ï
+ì
+—
+Œ/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/Basket.java	 (
+%0java.util.HashMap"__id*1*/
+com.roudy.retail.model.Basket"
+
+goodsQtity"µ
+—
+Œ/Users/roudy/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/retail-store-application/src/main/java/com/roudy/retail/model/Basket.java (
+
+%0java.util.HashMapB!
+com.roudy.retail.model.Basket
