@@ -15,3 +15,9 @@ mvn spring-boot:run
 ### Additional Documents
 - SonarQube Report
 - UML Diagram
+
+### Built with
+- Spring Boot framework
+- H2 database engine (in memory)
+- SonarQube code analysis
+- Apache Maven
